@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.home .MlargeLogo{
+  width: 100%;
+  height: 675px;
+  background: #FAF8F8;
+}
+.titleMenu{
+  width: 100%;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pasek{
+  background: #FED94B;
+  width: 75px;
+  height: 4px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  padding-left: 60px;
+}
+.menu p{
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.MlargeLogo .przyciski{
+  display: flex;
+  justify-content: space-evenly;
+}
+.MlargeLogo .przyciski button{
+  width: 215px;
+  height: 75px;
+  border: 3px solid #D5D3CE;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 300;
+  background: #FFF;
+  &:hover{
+    transition: 0.5s;
+    border: 3px solid #FED94B;
+  }
+}
+.MlargeLogo img{
+  padding-top: 30px;
+  height: 120px;
+}
+.starters{
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+}
+.startersIn{
+  width: 90%;
+  height: 100%;
+  //background: pink;
+  display: flex;
+  justify-content: space-between;
+}
+.biggerS{
+  height: 100%;
+  width: 55%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+}
+.smallerS{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //background: yellow;
+}
+.starter1{
+  height: 43%;
+  width: 100%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+}
+.starter2{
+  height: 43%;
+  width: 100%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+}
+.Mmenu{
+  height: 2050px;
+  background: #FAF8F8;
+  img{
+    padding-top: 30px;
+    height: 130px;
+  }
+}
+.drinkBox1{
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.starters .drink{
+  height: 43%;
+  width: 100%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+}
+.BigStarter{
+  height: 100%;
+  width: 240px;
+  background: pink;
+}
+.BigStarterInfo{
+  background: red;
+  height: 100%;
+  width: 476px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Shrimps{
+  height: 49px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  background: green;
+}
+.Lorem{
+  height: 81px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.price{
+  padding-top: 40px;
+  height: 30px;
+  background: yellow;
+}
+.basket i{
+  font-size: 30px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.basket i:hover{
+  color: #FED94B;
+}
+.SmallStarter{
+  height: 100%;
+  width: 30%;
+  background: pink;
+}
+.another{
+  height: 100%;
+  width: 70%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sTitle{
+  width: 100%;
+  height: 32px;
+  background: green;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.sInfo{
+  width: 100%;
+  height: 57px;
+}
+.sInfo p{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.sPrice{
+  width: 100%;
+  background: yellow;
+  height: 42px;
+}
+.SmallDrink{
+  height: 100%;
+  width: 20%;
+  background: pink;
+}
+.Danother{
+  height: 100%;
+  width: 80%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.DInfo{
+  width: 85%;
+  height: 57px;
+}
+.DInfo p{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.moveToMore{
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(rgba(252, 252, 252, 0.77), rgba(252, 252, 252, 0.77)), url("../pages/images/growing-meyer-lemon-trees-in-pots-848166-02-0e949f5ad3c845499964e908131b2f66.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.moveToBox{
+  height: 65%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quizButton{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quizButton button{
+  height: 73px;
+  width: 270px;
+  border: none;
+  border-radius: 17px;
+  background: #FFEEB0;
+  color: #FFFFFF;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  &:hover{
+    background: rgba(238,223,164,0.98);
+  }
+}
+.stillNotSure p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-left: 8px;
+  font-size: 45px;
+}
+.clickThis{
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.clickThis p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding-left: 8px;
+  font-size: 35px;
+}
+.clickThis p span{
+  font-weight: 400;
+}
+
