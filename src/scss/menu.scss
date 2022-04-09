@@ -1,0 +1,526 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.home .MlargeLogo{
+  width: 100%;
+  height: 675px;
+  background: #FAF8F8;
+}
+.titleMenu{
+  width: 100%;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pasek{
+  background: #FED94B;
+  width: 75px;
+  height: 4px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  padding-left: 60px;
+}
+.menu p{
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.MlargeLogo .przyciski{
+  display: flex;
+  justify-content: space-evenly;
+}
+.MlargeLogo .przyciski button{
+  width: 215px;
+  height: 75px;
+  border: 3px solid #D5D3CE;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 300;
+  background: #FFF;
+  &:hover{
+    transition: 0.5s;
+    border: 3px solid #FED94B;
+  }
+}
+.MlargeLogo img{
+  padding-top: 30px;
+  height: 120px;
+}
+.starters{
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+}
+.startersIn{
+  width: 90%;
+  height: 100%;
+  //background: pink;
+  display: flex;
+  justify-content: space-between;
+}
+.biggerS{
+  height: 100%;
+  width: 55%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.smallerS{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //background: yellow;
+}
+.starter1{
+  height: 43%;
+  width: 100%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.starter2{
+  height: 43%;
+  width: 100%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+}
+.Mmenu{
+  height: 2050px;
+  background: #FAF8F8;
+  img{
+    padding-top: 30px;
+    height: 130px;
+  }
+}
+.drinkBox1{
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.starters .drink{
+  height: 43%;
+  width: 100%;
+  border: 2px solid #D5D3CE;
+  border-radius: 20px;
+  display: flex;
+}
+.BigStarter{
+  height: 100%;
+  width: 240px;
+}
+.BigStarter img{
+  height: 332px;
+  padding: 0;
+  margin-left: -10px;
+}
+.BigStarterInfo{
+  height: 100%;
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Shrimps{
+  height: 49px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.biggerS .BigStarter #chicken{
+  height: 380px;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: -80px;
+}
+.biggerS .BigStarter #avocado{
+  height: 332px;
+  padding: 0;
+  margin-left: 15px;
+}
+.biggerS .BigStarter #lemonTart {
+  height: 303px;
+  padding: 0;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+.Lorem{
+  height: 81px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.price{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.Shrimps p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+.priceExact{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.priceExact p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+.BigButton{
+  padding-right: 35px;
+  cursor: pointer;
+}
+.BigButton button{
+  height: 100%;
+  width: 70px;
+  border: none;
+  background: #FFEEB0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.BigButton button i{
+  font-size: 47px;
+  color: #FED94B;
+}
+.basket i{
+  font-size: 30px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.basket i:hover{
+  color: #FED94B;
+}
+.basketStripe{
+  width: 100%;
+  height: 65px;
+  background: #FFEEB0;
+}
+.basketStripe img{
+  height: 80px;
+  padding-left: 5px;
+}
+.quantity p{
+  margin-top: -19px;
+  font-size: 20px;
+  margin-left: -28px;
+}
+.basketElements{
+  width: 100%;
+  margin-top: 60px;
+  height: 285px;
+  overflow: auto;
+}
+.basketView .basketElements li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 5px;
+  //margin: 5px 5px 30px 5px;
+  //padding: 0;
+}
+.basketView .basketElements li img{
+  padding: 0;
+}
+.basketName{
+  font-weight: 300;
+}
+.images2{
+  width: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basketPrice{
+  font-size: 18px;
+  font-weight: 400;
+}
+.basketOrder{
+  display: flex;
+  width: 88%;
+  height: 100px;
+  align-items: center;
+}
+//ul button{
+//  background: none;
+//  border: none;
+//  position: absolute;
+//  left: 5px;
+//  font-size: 23px;
+//  font-family: "Open Sans", sans-serif;
+//  font-weight: 300;
+//  margin-top: -4px;
+//  cursor: pointer;
+//}
+.basketElements ul{
+  overflow: auto;
+}
+.BigButton:hover{
+  opacity: 0.7;
+}
+.longLine{
+  width: 100%;
+  height: 1px;
+  background: #707070;
+}
+.checkoutButton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -22px;
+}
+.checkoutButton button{
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  height: 50px;
+  width: 140px;
+  color:white;
+  border-radius: 13px;
+  background: #FED94B;
+  font-size: 15px;
+  cursor: pointer;
+  &:hover{
+    opacity: 0.7;
+  }
+}
+.basketAll{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 5px 30px 5px;
+}
+.basketAll p{
+  font-weight: 400;
+}
+.basketView{
+  width: 375px;
+  height: 540px;
+  background: white;
+  border: 2px solid rgba(128,128,128,0.5);
+  position: absolute;
+  right: 5px;
+  top: 150px;
+  box-shadow: -1px 3px 7px 0px rgba(11, 11, 12, 0.57);
+}
+.SmallStarter{
+  height: 100%;
+  width: 30%;
+}
+.SmallStarter img{
+  padding: 0;
+  height: 180px;
+  margin-top: -25px;
+  margin-left: 7px;
+}
+.sPrice .priceExact p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sTitle p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.another{
+  height: 92%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sTitle{
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.sInfo{
+  width: 90%;
+}
+.sInfo p{
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 7px;
+}
+.sPrice{
+  width: 100%;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+.sPrice .BigButton button{
+  width: 40px;
+}
+.sPrice .BigButton button i{
+  font-size: 30px;
+}
+.SmallStarter #tofu{
+  padding: 0;
+  height: 162px;
+  margin-top: -13px;
+  margin-left: -3px;
+}
+.SmallStarter #salmon{
+  padding: 0;
+  height: 220px;
+  margin-top: -80px;
+  margin-left: -3px;
+}
+.SmallStarter #risotto{
+  padding: 0;
+  height: 215px;
+  margin-top: -40px;
+  margin-left: 3px;
+}
+.SmallStarter #pomegranate{
+  padding: 0;
+  height: 210px;
+  margin-top: -31px;
+  margin-left: 3px;
+}
+.SmallStarter #cucumber{
+  padding: 0;
+  height: 320px;
+  margin-top: -172px;
+  margin-left: -60px;
+}
+.SmallStarter #chocolate{
+  padding: 0;
+  height: 260px;
+  margin-top: -56px;
+  margin-left: -12px;
+}
+.SmallStarter #matcha{
+  padding: 0;
+  height: 238px;
+  margin-top: -52px;
+  margin-left: -6px;
+ }
+.SmallDrink{
+  height: 100%;
+  width: 20%;
+}
+.Danother{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.DInfo{
+  width: 85%;
+  height: 57px;
+}
+.DInfo p{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.SmallDrink #dream{
+  padding: 0;
+  height: 310px;
+  margin-top: -100px;
+  margin-left: -32px;
+}
+.SmallDrink #iceberg{
+  padding: 0;
+  height: 220px;
+  margin-top: -65px;
+  margin-left: -20px;
+}
+.SmallDrink #forest{
+  padding: 0;
+  height: 250px;
+  margin-top: -51px;
+  margin-left: -16px;
+}
+.SmallDrink #wonderland{
+  padding: 0;
+  height: 205px;
+  margin-top: -63px;
+}
+.moveToMore{
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(rgba(252, 252, 252, 0.77), rgba(252, 252, 252, 0.77)), url("../pages/images/growing-meyer-lemon-trees-in-pots-848166-02-0e949f5ad3c845499964e908131b2f66.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.moveToBox{
+  height: 65%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quizButton{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quizButton button{
+  height: 73px;
+  width: 270px;
+  border: none;
+  border-radius: 17px;
+  background: #FFEEB0;
+  color: #FFFFFF;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  &:hover{
+    background: rgba(238,223,164,0.98);
+  }
+}
+.stillNotSure p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-left: 8px;
+  font-size: 45px;
+}
+.clickThis{
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.clickThis p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding-left: 8px;
+  font-size: 35px;
+}
+.clickThis p span{
+  font-weight: 400;
+}
+
